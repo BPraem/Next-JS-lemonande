@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    background-color: lemonchiffon;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: #ffffff;
+    border-style: solid;
+    background-color: rgb(43, 41, 38);
+}
+
+h1{
+    font-size: 40px;
+    padding: 10px;
+    font-style: italic;
+}
+
+h2{
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+}
+
+h3{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
+.profitSection h2{
+    color: #ffffff;
+}
+
+.profitSection h3{
+    color: #ffffff;
+}
+
+.cartButton {
+    background-color: rgb(196, 196, 16);
+    border-radius: 20px;
+    border: none;
+    padding: 16px;
+    margin-top: 20px;
+    font-size: 16px;
+    height: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    border: white;
+    border-style: solid;
+  }
+  
+  .cartButton:hover {
+    background-color: rgb(207, 207, 14);
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 24px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .cartOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .cartWindow {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 400px;
+    background: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    z-index: 1000; 
+  }
+  
+  .cartContent {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .productCard {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+  }
+  
+
+.button{
+    padding: 16px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: rgb(196, 196, 16);
+    border: black;
+    border-style: solid;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button2{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: rgb(196, 196, 16);
+    border: black;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+img{
+    border-radius: 6px;
+}
+
+.button3{
+    text-decoration: underline;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.button:hover{
+    background-color: rgb(207, 207, 14);
+}
+
+.button2:hover{
+    background-color: rgb(207, 207, 14);
+}
+
+.button3:hover{
+    background-color: rgb(109, 109, 109);
+}
+
+.payout{
+    font-size: 22px;
+    text-decoration: underline;
+    color: green;
+    margin: 10px;
+}
+
+.productsTitle{
+    margin-left: 60px;
+    margin-top: 180px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.productLayout{
+    display: grid;
+    margin-left: 12%;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 20px;
+    padding-bottom: 22px;
+}
